@@ -1,10 +1,10 @@
 /* reset CSS */
 /* elimina estilos por default de los navegadores*/
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 body {
     background-color: whitesmoke;
@@ -19,6 +19,7 @@ body {
 }
 
 main {
+    height: 85vh;
     text-align: center;
 }
 
@@ -35,8 +36,8 @@ h1 {
 }
 
 #logo_principal {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 
 .lista-usos-cartelera {
@@ -49,6 +50,7 @@ h1 {
 }
 
 footer {
+    background-color: #1eb1eb;
     text-align: center;
     font-weight: bold;
 }
