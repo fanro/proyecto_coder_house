@@ -1,0 +1,74 @@
+/* reset CSS */
+/* elimina estilos por default de los navegadores*/
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #1eb1eb;
+}
+
+header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+main {
+    text-align: center;
+}
+
+main input {
+    margin: 5px;
+}
+
+main textarea {
+    margin: 5px;
+}
+
+h1 {
+    color: yellowgreen
+}
+
+#logo_principal {
+    height: 100px;
+    width: 100px;
+}
+
+.lista-usos-cartelera {
+    list-style-position: inside
+}
+
+.titulo-uso {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+.img_cartelera {
+    height: 50px;
+    width: 50px;
+}
+
+.p_cartelera {
+    font-style: italic;
+}
+
+#cartelera_code {
+    height: 20em;
+    width: 90em;
+}
