@@ -86,6 +86,35 @@ main .textos .boton {
     width: 20%;
 }
 
+.ingreso-principal {
+    height: 75vh;
+}
+
+/* estilos de tablet */
+@media screen and (min-width: 600px) {
+    .ingreso-principal {
+        height: 85vh;
+    }
+}
+
+/* estilos desktop */
+@media screen and (min-width: 1024px) {
+    .ingreso-principal {
+        height: 80vh;
+    }
+}
+
+/*  Huge */
+@media screen and (min-width: 1281px) {
+    .ingreso-principal {
+        height: 85vh;
+    }
+}
+
+#boton_login {
+    background-color: #1eb1eb;
+}
+
 main input {
     margin: 5px;
 }
