@@ -53,23 +53,39 @@
         </div>
     </nav>
 
-    <main>
-        <h1>Registro</h1>
-
-        <form action="" method="post">
-            <label>Nombre:</label><br>
-            <input type="text" id="nombre" name="nombre"><br>
-            <label>Apellido:</label><br>
-            <input type="text" id="apellido" name="apellido"><br>
-            <label>Email:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label>Contraseña:</label><br>
-            <input type="text" id="password" name="password"><br>
-            <label>Repetir contraseña:</label><br>
-            <input type="text" id="repeat_password" name="repeat_password"><br><br>
-            <input type="submit" value="Registrate!">
-        </form>
-
+    <main class="d-flex align-items-center justify-content-center regsitro-principal">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h1 class="text-center mb-4">Registro</h1>
+                    <form action="" method="post">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido" class="form-label">Apellido:</label>
+                            <input type="text" class="form-control" id="apellido" name="apellido">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña:</label>
+                            <input type="password" class="form-control" id="password" name="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="repeat_password" class="form-label">Repetir contraseña:</label>
+                            <input type="password" class="form-control" id="repeat_password" name="repeat_password">
+                        </div>
+                        <div class="d-grid">
+                            <button id="boton_cartelera" type="submit" class="btn">Registrate!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
 
 
