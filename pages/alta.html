@@ -53,22 +53,30 @@
         </div>
     </nav>
 
-    <main>
-        <h1>Crear Cartelera</h1>
+    <main class="container mt-5 alta-principal">
+        <h1 class="text-center mb-4">Crear Cartelera</h1>
 
-        <form action="" method="post">
-            <label>Nombre:</label><br>
-            <input type="text" id="nombre" name="nombre"><br>
-            <label>Alias:</label><br>
-            <input type="text" id="nombre" name="nombre"><br>
-            <label>Ubicacion:</label><br>
-            <input type="text" id="ubicacion" name="ubicacion"><br>
-            <label>Codigo:</label><br>
+        <form action="" method="post" class="" novalidate>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+            <div class="mb-3">
+                <label for="alias" class="form-label">Alias:</label>
+                <input type="text" class="form-control" id="alias" name="alias">
+            </div>
+            <div class="mb-3">
+                <label for="ubicacion" class="form-label">Ubicacion:</label>
+                <input type="text" class="form-control" id="ubicacion" name="ubicacion">
+            </div>
+            <div class="mb-3">
+                <label for="cartelera_code" class="form-label">Codigo:</label>
 
-            <!-- CODIGO HTML DE LA CARTELERA  -->
-            <textarea name="cartelera_code" id="cartelera_code">
+                <!-- CODIGO HTML DE LA CARTELERA -->
+                <textarea class="form-control" id="cartelera_code" name="cartelera_code" rows="10">
 
-<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -83,18 +91,15 @@
     </main>
 </body>
 
-</html>
-
-
-            </textarea><br>
-
-
-            <input type="file" name="" id=""><br>
-            <label for="">Agrega tus fuentes! *.js / *.css / *.jpg / etc.</label><br><br>
-
-            <input type="submit" value="Guardar">
+</html>-->
+                </textarea>
+            </div>
+            <div class="">
+                <label for="file" class="form-label">Agrega tus fuentes! *.js / *.css / *.jpg / etc.</label>
+                <input type="file" class="form-control" id="file" name="file">
+            </div>
+            <button type="submit" class="boton_cartelera w-100 mb-5">Crear Cartelera</button>
         </form>
-
     </main>
 
 

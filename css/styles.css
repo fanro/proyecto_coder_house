@@ -90,21 +90,55 @@ main .textos .boton {
     height: 85vh;
 }
 
-#boton_cartelera {
+.boton_cartelera {
     background-color: #1eb1eb;
+    border-radius: 25px;
+    height: 40px;
+    color: white
 }
+
+.boton_cartelera:hover {
+    background-color: #0586b9;
+}
+
+.boton_cartelera:active {
+    background-color: #1eb1eb;
+    border: 1px solid black;
+}
+
 
 .regsitro-principal {
     height: 85vh;
 }
 
-main input {
+/* estilos de tablet */
+@media screen and (min-width: 600px) {
+    .alta-principal {
+        height: 85vh;
+    }
+
+}
+
+/* estilos desktop */
+@media screen and (min-width: 1024px) {
+    .alta-principal {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .alta-principal {
+        height: 80vh;
+    }
+}
+
+/* main input {
     margin: 5px;
 }
 
 main textarea {
     margin: 5px;
-}
+} */
 
 #logo_principal {
     height: 60px;
@@ -133,9 +167,4 @@ footer {
 
 .p_cartelera {
     font-style: italic;
-}
-
-#cartelera_code {
-    height: 20em;
-    width: 90em;
 }
