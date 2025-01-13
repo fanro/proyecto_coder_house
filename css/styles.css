@@ -18,9 +18,72 @@ body {
     color: white;
 }
 
-main {
-    height: 85vh;
+/*  Huge */
+@media screen and (min-width: 1281px) {
+    .home-principal {
+        height: 66vh;
+    }
+}
+
+.home-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.home-principal .textos {
     text-align: center;
+}
+
+.home-principal .img {
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+main .textos .boton {
+    background-color: #1eb1eb;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px gray;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.cartelera-demo {
+    height: 300px;
+    width: 350px;
+}
+
+.seccion-principal {
+    background-color: #1eb1eb;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* estilos de tablet */
+@media screen and (min-width: 1280px) {
+    .seccion-principal {
+        flex-wrap: nowrap;
+    }
+}
+
+.seccion-principal div {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.seccion-principal div img {
+    width: 20%;
 }
 
 main input {
@@ -29,10 +92,6 @@ main input {
 
 main textarea {
     margin: 5px;
-}
-
-h1 {
-    color: yellowgreen
 }
 
 #logo_principal {
