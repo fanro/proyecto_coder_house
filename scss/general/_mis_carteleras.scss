@@ -1,0 +1,14 @@
+@import '../utilidades/mixin';
+
+/* ESTILOS MIS CARTELERAS */
+
+.img_cartelera {
+    @include anchoAlto(50px, 50px);
+    &:hover {
+        filter: blur(1px);
+    }
+}
+
+.p_cartelera {
+    font-style: italic;
+}

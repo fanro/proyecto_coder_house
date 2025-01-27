@@ -1,0 +1,15 @@
+@import '../utilidades/variables';
+
+/* ESTILOS COMUNES */
+
+.boton_cartelera {
+    background-color: $color-principal;
+    border-radius: 25px;
+    height: 40px;
+    color: $color-text-principal;
+    border: none;
+    &:hover {
+        background-color: $color-secundario;
+        color: $color-text-secundario;
+    }
+}

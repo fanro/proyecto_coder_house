@@ -1,0 +1,14 @@
+/* ESTILOS TABLET */
+
+@media screen and (min-width: 1280px) {
+    .seccion-principal {
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .alta-principal {
+        height: 85vh;
+    }
+
+}

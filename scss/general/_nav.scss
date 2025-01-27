@@ -1,0 +1,32 @@
+
+@import '../utilidades/variables';
+@import '../utilidades/mixin';
+
+/* ESTILOS NAV */
+
+.cartelera-bg {
+    background-color: $color-principal;
+}
+
+.nav-item {
+    border: none;
+    color: $color-text-principal;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    &:hover {
+        background-color: $color-secundario;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+#logo_principal {
+    @include anchoAlto(60px, 60px);
+}

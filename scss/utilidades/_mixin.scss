@@ -1,0 +1,24 @@
+@mixin flex{
+    display: flex;
+    align-items: center;
+}
+
+@mixin nav {
+    list-style: none;
+    color: whitesmoke;
+    display: flex;
+    gap: 1rem;
+}
+
+@mixin grid($display, $columns, $rows) {
+    display: $display;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    gap: 1.5rem;
+    align-content: center;
+}
+
+@mixin anchoAlto($width, $height){
+    width: $width;
+    height: $height;
+}

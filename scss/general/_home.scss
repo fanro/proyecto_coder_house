@@ -1,0 +1,68 @@
+
+@import '../utilidades/mixin';
+
+/* ESTILOS HOME */
+
+.home-principal {
+    @include flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    .textos {
+        text-align: center;
+    }
+    .img{
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+main {
+    .boton {
+        background-color: $color-principal;
+        color: $color-text-principal;
+        padding: 10px;
+        margin-top: 10px;
+        display: inline-block;
+        box-shadow: 10px 10px 10px gray;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        margin-bottom: 20px;
+        &:hover {
+            background-color: $color-secundario;
+            color: $color-text-secundario;
+        }
+    }
+}
+
+.cartelera-demo {
+    @include anchoAlto(350px, 300px);
+}
+
+.seccion-principal {
+    background-color: $color-principal;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    div {
+        display: flex;
+        flex-direction: column;
+        color: $color-text-secundario;
+        align-items: center;
+        margin-left: 10px;
+        img {
+            width: 20%;
+        }
+    }
+
+}
+
+.lista-usos-cartelera {
+    list-style-position: inside
+}
+
+.titulo-uso {
+    font-size: 25px;
+    text-transform: uppercase;
+}
